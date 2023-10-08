@@ -1,0 +1,103 @@
+/* reset css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* .body {
+  height: 100px;
+} */
+/* set chiều cao cho header */
+header {
+  height: 200px;
+}
+/* css cho header và sử dụng flex để các phần tử nằm cùng hàng  */
+.header {
+  display: flex;
+  background-color: #0d6efd;
+  align-items: center;
+  padding: 50px 0px 50px 360px;
+}
+
+/* css cho hình ảnh*/
+.header img {
+  position: absolute;
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 50%;
+  margin-left: -130px;
+}
+/* css cho phần navbar */
+.navbar {
+  height: 50px;
+  background-color: #2c2b30;
+}
+/* css cho container và sử dụng flex để các phần tử nằm cùng hàng */
+ .row {
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+/* css cho thẻ a  */
+ .row a {
+  color: #fff;
+  line-height: 50px;
+  
+}
+.row a .contact {
+}
+/* cách top 97px */
+.navbar .row{
+  margin-top: 97px;
+}
+/* set phông chữ, màu chữ cho các phần tử trong info */
+.info {
+  font-size: 20px;
+  margin-left: 30px;
+  color: #fff;
+}
+
+/* css phông chữ cho tiêu đề h5 */
+.info h5 {
+  font-size: 20px;
+  border-bottom: 1px solid #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* css font chữ và chiều cao của chữ trong đoạn p */
+.info p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.content {
+  margin-top: 60px;
+}
+
+/* css để các phần tử nằm cùng hàng  */
+.content .row-1, .content .row-2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.content .row-1 h2, .content .row-2 h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+/* css row-2 cách row-1 1 khoảng 80px */
+.content .row-2 {
+  margin-top: 80px;
+}
+
+/* css cho phần mô tả chi tiết cỡ chữ, chiều cao chữ là các top `1 khoảng 50px */
+.row-1 .detail, .row-2 .detail {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 50px;
+}
